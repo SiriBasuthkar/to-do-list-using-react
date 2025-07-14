@@ -36,8 +36,9 @@ function App() {
   return (
     <div className="App">
       <h1>To-Do List</h1>
-      <form onSubmit={saveToDoList}>
-        <input type="text" name="toname" placeholder="Enter todo..." />
+      <form onSubmit={saveToDoList} >
+        <textarea type="text" name="toname" placeholder="Enter todo..." className="textarea"></textarea>
+        <br />
         <button>Save</button>
       </form>
       <div className="outerDiv">

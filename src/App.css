@@ -37,6 +37,8 @@
   }
 }
 .App {
+  font-family: Arial, sans-serif;
+  background-color: cadetblue;
   text-align: center;
   margin-top: 30px;
 }
@@ -77,5 +79,9 @@ li:hover {
 
 .completetodo {
   text-decoration: line-through;
-  color: gray;
+  color: white;
+}
+.textarea{
+  background-color: #efed5f;
+  color: white;
 }
